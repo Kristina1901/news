@@ -1,0 +1,238 @@
+a {
+  cursor: pointer;
+}
+header .container {
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header__list {
+  display: none;
+}
+.header__list-item-link-first {
+  color: #0669de;
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list-item-link-second {
+  color: #c4170c;
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list-item-link-third {
+  color: #06aa48;
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list-item-link-fourth {
+  color: #ff6700;
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list-item-link-fiveth {
+  color: #fb0334;
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list-item-link-sixth {
+  color: rgb(30, 76, 154);
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list-item-link-seventh {
+  color: rgb(196, 23, 12);
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+.header__list {
+  width: 630px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__list-assist-item-link {
+  padding: 12px;
+  display: block;
+  color: #171717;
+  font-weight: 600;
+}
+.header__list-assist-item-link:last-child {
+  display: flex;
+}
+.button-login-icon {
+  margin-right: 8px;
+}
+.header {
+  background: #c4170c;
+  padding: 12px;
+  width: 100%;
+}
+#header1 {
+  position: fixed;
+  left: 0;
+  z-index: 1000;
+  transition: top 0.5s;
+  display: none;
+}
+#header2 {
+  position: fixed;
+  left: 0;
+  z-index: 1000;
+  transition: top 0.5s;
+}
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navegacao .menu-button .burger,
+.header-navegacao .menu-button .burger:before,
+.header-navegacao .menu-button .burger:after {
+  background-color: #fff;
+}
+.header-navegacao .burger,
+.header-navegacao .burger:before,
+.header-navegacao .burger:after {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  border-radius: 0;
+  background: #fff;
+  left: 0;
+}
+.burger {
+  height: 20px;
+  width: 30px;
+  background-image: url("/img/burger.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+.guia {
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.menu {
+  display: none;
+}
+.header__list-burger {
+  display: flex;
+}
+.header__list-burger-item {
+  display: flex;
+  align-items: center;
+}
+.g1 {
+  width: 34px;
+  height: 34px;
+}
+.line {
+  background-image: url("/img/dots.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 34px;
+  margin-right: 32px;
+  width: 22px;
+  display: none;
+}
+#busca-campo1 {
+  padding: 5px 30px;
+  background: #a6130a;
+  border: none;
+  color: white;
+  outline: none;
+  width: 100%;
+  padding-right: 0;
+}
+#busca-campo2 {
+  padding: 5px 30px;
+  background: #a6130a;
+  border: none;
+  color: white;
+  outline: none;
+  width: 100%;
+  padding-right: 0;
+}
+input::placeholder {
+  color: white;
+  font-weight: 600;
+}
+.lupa svg {
+  width: 20px;
+  height: 20px;
+}
+.header__list-assist {
+  display: none;
+}
+.burger {
+  margin-right: 20px;
+}
+.button__looking {
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+}
+.input__wrapper {
+  display: none;
+  position: relative;
+  height: 33px;
+  width: 164px;
+}
+.lupa {
+  position: absolute;
+  left: 5px;
+  top: 3px;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .header__list-assist {
+    display: flex;
+  }
+  .guia {
+    font-size: 32px;
+  }
+  .header__list {
+    display: flex;
+  }
+  .menu {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 17px;
+    text-transform: uppercase;
+  }
+  .line {
+    display: block;
+  }
+  .burger {
+    margin-right: 0;
+  }
+  .input__wrapper {
+    display: block;
+  }
+  .button__looking {
+    display: none;
+  }
+  #header1 {
+    display: block;
+  }
+  #header2 {
+    position: static;
+  }
+}

@@ -1,0 +1,18 @@
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 834px) {
+    width: 754px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1312px;
+    margin: 0 auto;
+  }
+}
