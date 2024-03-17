@@ -7,7 +7,11 @@
       Zé Celso é internado e entubado após incêndio atingir apartamento em que
       mora em SP; veja vídeo
     </title>
-    <link rel="stylesheet" href="/css/main.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.3/build/css/intlTelInput.css"
+    />
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,30 +25,32 @@
       <div class="container">
         <ul class="header__list">
           <li class="header__list-item">
-            <a class="header__list-item-link-first">globo.com</a>
+            <a class="header__list-item-link-first" href="#form">globo.com</a>
           </li>
           <li class="header__list-item">
-            <a class="header__list-item-link-second">g1</a>
+            <a class="header__list-item-link-second" href="#form">g1</a>
           </li>
           <li class="header__list-item">
-            <a class="header__list-item-link-third">ge</a>
+            <a class="header__list-item-link-third" href="#form">ge</a>
           </li>
           <li class="header__list-item">
-            <a class="header__list-item-link-fourth">geshow</a>
+            <a class="header__list-item-link-fourth" href="#form">geshow</a>
           </li>
           <li class="header__list-item">
-            <a class="header__list-item-link-fiveth">globoplay</a>
+            <a class="header__list-item-link-fiveth" href="#form">globoplay</a>
           </li>
           <li class="header__list-item">
-            <a class="header__list-item-link-sixth">globo</a>
+            <a class="header__list-item-link-sixth" href="#form">globo</a>
           </li>
           <li class="header__list-item">
-            <a class="header__list-item-link-seventh">guia de compras</a>
+            <a class="header__list-item-link-seventh" href="#form"
+              >guia de compras</a
+            >
           </li>
         </ul>
         <ul class="header__list-assist">
           <li class="header__list-assist-item">
-            <a class="header__list-assist-item-link"> Assine Já</a>
+            <a class="header__list-assist-item-link" href="#form"> Assine Já</a>
           </li>
           <li class="header__list-assist-item">
             <a class="header__list-assist-item-link">
@@ -72,7 +78,8 @@
         <div class="container">
           <ul class="header__list-burger">
             <li class="header__list-burger-item">
-              <a class="burger"></a><a class="menu">menu</a>
+              <a class="burger" href="#form"></a
+              ><a class="menu" href="#form">menu</a>
             </li>
             <li class="line"></li>
             <li class="g1">
@@ -135,7 +142,8 @@
         <div class="container">
           <ul class="header__list-burger">
             <li class="header__list-burger-item">
-              <a class="burger"></a><a class="menu">menu</a>
+              <a class="burger" href="#form"></a
+              ><a class="menu" href="#form">menu</a>
             </li>
             <li class="line"></li>
             <li class="g1">
@@ -215,26 +223,28 @@
         </p>
         <ul class="hero__list">
           <li class="hero__list-item hero__list-item-link-first">
-            <a class="hero__list-item-link"><div class="fb"></div></a>
+            <a class="hero__list-item-link" href="#form"
+              ><div class="fb"></div
+            ></a>
           </li>
           <li class="hero__list-item hero__list-item-link-second">
-            <a class="hero__list-item-link"><div class="wup"></div></a>
+            <a class="hero__list-item-link" href="#form"
+              ><div class="wup"></div
+            ></a>
           </li>
           <li class="hero__list-item hero__list-item-link-third">
-            <a class="hero__list-item-link"><div class="share"></div></a>
+            <a class="hero__list-item-link" href="#form"
+              ><div class="share"></div
+            ></a>
           </li>
         </ul>
-        <video
-          poster="img/poster.jpg"
-          controls="controls"
-          playsinline
-          autoplay
-          loop
-          class="video__main"
-        >
-          <source id="video" src="video" type="video/mp4" />
+        <video poster="img/poster.jpg" controls="controls" class="video__main">
+          <source id="video1" src="video/video1.mp4" type="video/mp4" />
         </video>
         <p class="video__text">
+          Incêndio no apartamento do ator Zé Celso, em São Paulo
+        </p>
+        <p class="hero__article-text">
           A invenção desta nova criptomoeda mudou a vida dos cidadãos
           portugueses.
         </p>
@@ -258,11 +268,11 @@
           Decidimos entrevistar o representante do banco para saber mais sobre a
           plataforma e como ela pode ser útil para o cidadão comum:
         </p>
-        <p class="hero__article-text">
-          Qual é o princípio do investimento no Real Digital?
-        </p>
-        <p class="hero__article-text">
-          O papel do banco na negociação com o Real Digital envolve alavancar
+        <h3 class="hero__article-text-subtitle">
+          - Qual é o princípio do investimento no Real Digital?
+        </h3>
+        <p class="hero__article-text italic">
+          - O papel do banco na negociação com o Real Digital envolve alavancar
           seus recursos para executar negócios em nome dos investidores. A
           equipe de especialistas financeiros e os algoritmos de IA do banco
           analisam as tendências do mercado, identificam oportunidades
@@ -270,32 +280,29 @@
           garante que os investidores possam se beneficiar da experiência do
           banco e maximizar o retorno de seus investimentos.
         </p>
-        <video
-          poster="img/poster.jpg"
-          controls="controls"
-          playsinline
-          autoplay
-          loop
-          class="video__main"
-        >
-          <source id="video2" src="video" type="video/mp4" />
+        <video poster="img/poster.jpg" controls="controls" class="video__main">
+          <source id="video2" src="video/video2.mp4" type="video/mp4" />
         </video>
-        <p class="video__text">Quanto dinheiro os cidadãos podem ganhar?</p>
-        <p class="hero__article-text">
-          Os ganhos potenciais em investir no Digital Real dependem do depósito
-          inicial feito pelo usuário. Como os algoritmos de IA geram lucros por
-          meio de atividades de negociação, o investimento do usuário cresce
-          exponencialmente. Em média, os usuários podem esperar que seu depósito
-          aumente de 3 a 4 vezes, resultando potencialmente em ganhos
+        <h3 class="hero__article-text-subtitle">
+          - Quanto dinheiro os cidadãos podem ganhar?
+        </h3>
+        <p class="hero__article-text italic">
+          - Os ganhos potenciais em investir no Digital Real dependem do
+          depósito inicial feito pelo usuário. Como os algoritmos de IA geram
+          lucros por meio de atividades de negociação, o investimento do usuário
+          cresce exponencialmente. Em média, os usuários podem esperar que seu
+          depósito aumente de 3 a 4 vezes, resultando potencialmente em ganhos
           financeiros significativos. Os utilizadores podem esperar ganhar cerca
           de 283.608 PTE com o seu investimento inicial. O crescimento inicial
           geralmente é perceptível no primeiro dia, e resultados substanciais
           podem ser vistos em três dias. Quanto mais dinheiro os usuários
           depositarem, mais dinheiro eles poderão ganhar no final.
         </p>
-        <p class="hero__article-text">O Digital Real é gratuito?</p>
-        <p class="hero__article-text">
-          Sim, atualmente o acesso à plataforma é gratuito; no entanto, os
+        <h3 class="hero__article-text-subtitle">
+          - O Digital Real é gratuito?
+        </h3>
+        <p class="hero__article-text italic">
+          - Sim, atualmente o acesso à plataforma é gratuito; no entanto, os
           usuários são obrigados a fazer um investimento inicial. O banco quer
           ajudar o maior número possível de pessoas, por isso os usuários são
           incentivados a participar do projeto prontamente. É importante
@@ -304,16 +311,15 @@
           criptomoeda.
         </p>
         <img src="img/zecelso.webp" alt="news" class="news" />
-        <p class="video__text">
-          Como posso me tornar um membro da plataforma de negociação Digital
+        <h3 class="hero__article-text-subtitle">
+          -Como posso me tornar um membro da plataforma de negociação Digital
           Real?
-        </p>
+        </h3>
         <p class="hero__article-text">
-          Agora, as pessoas comuns podem acessar facilmente a plataforma de
+          - Agora, as pessoas comuns podem acessar facilmente a plataforma de
           negociação fornecida pelo banco. O processo de registro é simples:
         </p>
-
-        <ul>
+        <ol class="hero__article-counting-list">
           <li class="hero__article-text">
             Preencha o formulário na plataforma.
           </li>
@@ -326,61 +332,119 @@
           <li class="hero__article-text">
             Observe como a plataforma cuida de tudo para você.
           </li>
-        </ul>
-        <h2 class="hero__article-subtitle">Vantagens de Usar a Criptomoeda</h2>
+        </ol>
+        <h2 class="hero__article-title">Vantagens de Usar a Criptomoeda</h2>
         <p class="hero__article-text">
           A Digital Real foi criada para ajudar os cidadãos portugueses comuns a
           lucrar com o mínimo de investimento. Vejamos as principais vantagens
           de investir na Digital Real por meio do Banco do Brasil S.A.
         </p>
-        <h3 class="hero__article-text-subtitle">Confiabilidade e Responsabilidade</h3>
+        <h3 class="hero__article-text-subtitle">
+          Confiabilidade e Responsabilidade
+        </h3>
         <p class="hero__article-text">
           O Banco do Brasil S.A. é um banco confiável e confiável que assume
           total responsabilidade pelos fundos dos usuários. O banco utiliza
           criptografia avançada e tecnologia segura para proteger as informações
           financeiras dos usuários, garantindo um ambiente de investimento
           seguro.
-          </p>
-          <h3 class="hero__article-text-subtitle">Acessibilidade
-          </h3>
-         <p class="hero__article-text">
-          Independentemente do seu cargo ou idade, todos os residentes portugueses podem beneficiar da nova criptomoeda e registar-se facilmente no projeto. Você não precisa realizar uma pesquisa extensa, basta seguir o link fornecido.
-          </p>
-          <h3 class="hero__article-text-subtitle">Simplicidade
-          </h3>
-          <p class="hero__article-text">
-            Uma vez feito o depósito, a plataforma Digital Real assume o processo de negociação. O banco utiliza algoritmos avançados de inteligência artificial para analisar de forma autônoma as tendências do mercado, identificar oportunidades de negociação lucrativas e executar negociações em nome dos investidores. Isso simplifica o processo de investimento para os usuários, que podem contar com a expertise da plataforma.
-            </p>
-            <h3 class="hero__article-text-subtitle">Riscos Zero
-            </h3>
-            <p class="hero__article-text">
-              Todas as transações comerciais são feitas por inteligência artificial, garantindo uma abordagem orientada ao usuário. Isso significa que os usuários se beneficiarão de negócios lucrativos e verão seu dinheiro se multiplicar sem nenhum risco.Ao considerar essas vantagens, os indivíduos podem tomar uma decisão informada e potencialmente se beneficiar do investimento em Real Digital por meio do Banco do Brasil S.A.
-              </p>
-              <h2>Depoimentos de Usuários Reais
-              </h2>
-              <p class="hero__article-text">Como mencionamos anteriormente, milhares de pessoas já experimentaram a plataforma de negociação Digital Real. Alguns usuários estão tão empolgados com a criptomoeda que decidiram compartilhar suas emoções com pessoas que hesitam em dar o primeiro passo.
-              </p>
-              <h3>Miguel:
-              </h3>
-              <p class="hero__article-text">"Eu costumava trabalhar duro para sustentar minha família, mas o digital real se tornou meu salvador. Depositei 59.100 PTE e esperei para ver se a notícia não mentia. E não o fizeram, recebi 236.400 PTE em três dias. Agora recebo um rendimento estável de 709.000 contos por mês e não preciso de ir para um trabalho cansativo. Finalmente, minha família e eu vivemos em abundância e posso acreditar que isso está acontecendo na vida real."
-              </p>
-              <h3>Laura:
-              </h3>
-              <p class="hero__article-text">"Trabalho como maquiadora há dois anos. O fato é que não consegui encontrar um emprego mais decente em nosso país. Mas eu ainda estava seguindo meu sonho e finalmente se tornou realidade. Agora posso aproveitar meu hobby e obter a renda principal do Real Digital. Decidi depositar R$1500, e eles multiplicaram algumas vezes! Agora eu invisto regularmente e aproveito a renda. Você não deve hesitar em investir seu dinheiro em novas tecnologias porque pode realmente ser útil hoje em dia."
-
-              </p>
-        <video
-            poster="img/poster31.jpg"
-            controls="controls"
-            playsinline
-            autoplay
-            loop
-            class="video__main"
-          >
-            <source id="video1" src="/video" type="video/mp4" />
-          </video>
         </p>
-
+        <h3 class="hero__article-text-subtitle">Acessibilidade</h3>
+        <p class="hero__article-text">
+          Independentemente do seu cargo ou idade, todos os residentes
+          portugueses podem beneficiar da nova criptomoeda e registar-se
+          facilmente no projeto. Você não precisa realizar uma pesquisa extensa,
+          basta seguir o link fornecido.
+        </p>
+        <h3 class="hero__article-text-subtitle">Simplicidade</h3>
+        <p class="hero__article-text">
+          Uma vez feito o depósito, a plataforma Digital Real assume o processo
+          de negociação. O banco utiliza algoritmos avançados de inteligência
+          artificial para analisar de forma autônoma as tendências do mercado,
+          identificar oportunidades de negociação lucrativas e executar
+          negociações em nome dos investidores. Isso simplifica o processo de
+          investimento para os usuários, que podem contar com a expertise da
+          plataforma.
+        </p>
+        <h3 class="hero__article-text-subtitle">Riscos Zero</h3>
+        <p class="hero__article-text">
+          Todas as transações comerciais são feitas por inteligência artificial,
+          garantindo uma abordagem orientada ao usuário. Isso significa que os
+          usuários se beneficiarão de negócios lucrativos e verão seu dinheiro
+          se multiplicar sem nenhum risco.Ao considerar essas vantagens, os
+          indivíduos podem tomar uma decisão informada e potencialmente se
+          beneficiar do investimento em Real Digital por meio do Banco do Brasil
+          S.A.
+        </p>
+        <h2 class="hero__article-title">Depoimentos de Usuários Reais</h2>
+        <p class="hero__article-text">
+          Como mencionamos anteriormente, milhares de pessoas já experimentaram
+          a plataforma de negociação Digital Real. Alguns usuários estão tão
+          empolgados com a criptomoeda que decidiram compartilhar suas emoções
+          com pessoas que hesitam em dar o primeiro passo.
+        </p>
+        <h4 class="hero__article-title-comments-name">Miguel:</h4>
+        <p class="hero__article-text">
+          "Eu costumava trabalhar duro para sustentar minha família, mas o
+          digital real se tornou meu salvador. Depositei 59.100 PTE e esperei
+          para ver se a notícia não mentia. E não o fizeram, recebi 236.400 PTE
+          em três dias. Agora recebo um rendimento estável de 709.000 contos por
+          mês e não preciso de ir para um trabalho cansativo. Finalmente, minha
+          família e eu vivemos em abundância e posso acreditar que isso está
+          acontecendo na vida real."
+        </p>
+        <h4 class="hero__article-title-comments-name">Laura:</h4>
+        <p class="hero__article-text">
+          "Trabalho como maquiadora há dois anos. O fato é que não consegui
+          encontrar um emprego mais decente em nosso país. Mas eu ainda estava
+          seguindo meu sonho e finalmente se tornou realidade. Agora posso
+          aproveitar meu hobby e obter a renda principal do Real Digital. Decidi
+          depositar R$1500, e eles multiplicaram algumas vezes! Agora eu invisto
+          regularmente e aproveito a renda. Você não deve hesitar em investir
+          seu dinheiro em novas tecnologias porque pode realmente ser útil hoje
+          em dia."
+        </p>
+        <div id="form">
+          <div class="contact__form">
+            <form class="contact__form-fields" id="formItem">
+              <p class="contact__form-title">Registo</p>
+              <input
+                type="text"
+                name="name"
+                class="contact__form-input name"
+                placeholder="Nome"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                class="contact__form-input email"
+                placeholder="Email"
+                required
+              />
+              <span id="error-msg-email" class="hide">Valor inválido</span>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="contact__form-input phone"
+                required
+              />
+              <span id="error-msg-phone" class="hide">Valor inválido</span>
+              <button type="submit" class="contact__form-button" id="button">
+                Subscrever
+              </button>
+            </form>
+          </div>
+        </div>
+        <video
+          poster="img/poster31.jpg"
+          controls="controls"
+          class="video__main"
+        >
+          <source id="video3" src="video/video3.mp4" type="video/mp4" />
+        </video>
         <p class="video__text">
           Incêndio no apartamento do ator Zé Celso, em São Paulo
         </p>
@@ -432,25 +496,27 @@
     <section class="line__news">
       <div class="container">
         <div class="subContainer">
-          <a class="line__news-link"> Zé Celso </a>
+          <a class="line__news-link" href="#form"> Zé Celso </a>
           <p class="line__news-text">Comentários (32)</p>
           <p class="line__news-text">
             Acesse sua Conta Globo e participe da conversa
           </p>
-          <a class="loginRequired__btn"> Clique aqui para fazer login </a>
+          <a class="loginRequired__btn" href="#form">
+            Clique aqui para fazer login
+          </a>
           <ul class="line__news-list">
             <li class="line__news-list-item">
               <img src="img/12326046.jpg" width="188" alt="girl" />
               <p class="">Sugerida para você</p>
-              <a class="line__news-list-link"></a>
+              <a class="line__news-list-link" href="#form"></a>
             </li>
             <li class="line__news-list-item">
-              <a class="line__news-list-item-text"
+              <a class="line__news-list-item-text" href="#form"
                 >O voo da Varig que desapareceu misteriosamente há 45 anos e
                 nunca foi encontrado</a
               >
               <img src="img/12326046.jpg" width="188" alt="girl" />
-              <a class="line__news-list-item-text"
+              <a class="line__news-list-item-text" href="#form"
                 >O voo da Varig que desapareceu misteriosamente há 45 anos e
                 nunca foi encontrado</a
               >
@@ -477,7 +543,7 @@
           <h3 class="line__news-header-text">Mais lidas</h3>
           <ul class="line__news-line">
             <li class="line__news-line-item">
-              <a class="line__news-line-item-link">
+              <a class="line__news-line-item-link" href="#form">
                 <p>1</p>
                 <p>
                   O voo da Varig que desapareceu misteriosamente há 45 anos e
@@ -487,7 +553,7 @@
               </a>
             </li>
             <li class="line__news-line-item">
-              <a class="line__news-line-item-link">
+              <a class="line__news-line-item-link" href="#form">
                 <p>2</p>
                 <p>
                   Clarinha: Um dia antes da morte, Justiça autorizou registro
@@ -497,7 +563,7 @@
               </a>
             </li>
             <li class="line__news-line-item">
-              <a class="line__news-line-item-link">
+              <a class="line__news-line-item-link" href="#form">
                 <p>3</p>
                 <p>
                   Gleisi diz ter sofrido ataques em Natal e pede apuração à PF;
@@ -510,7 +576,7 @@
               </a>
             </li>
             <li class="line__news-line-item">
-              <a class="line__news-line-item-link">
+              <a class="line__news-line-item-link" href="#form">
                 <p>4</p>
                 <p>
                   Turista de SP é assassinado com um tiro em casa de veraneio
@@ -520,7 +586,7 @@
               </a>
             </li>
             <li class="line__news-line-item">
-              <a class="line__news-line-item-link">
+              <a class="line__news-line-item-link" href="#form">
                 <p>5</p>
                 <p>
                   Turista de SP é assassinado com um tiro em casa de veraneio
@@ -538,7 +604,7 @@
       <div class="container">
         <h3 class="news__list-title">Mais do</h3>
         <span class="feed-post-header-chapeu">🔥🔥🔥 </span>
-        <a class="news__list-link"
+        <a class="news__list-link" href="#form"
           >Onda de calor: último fim de semana do verão tem temperaturas altas
           pelo país</a
         >
@@ -556,7 +622,7 @@
             />
             <div class="news__list-list-item-wrapper">
               <p class="news__list-list-item-wrapper-loterias">Loterias</p>
-              <a class="news__list-list-item-wrapper-link"
+              <a class="news__list-list-item-wrapper-link" href="#form"
                 >Mega-Sena: prêmio acumula e vai a R$ 67 milhões; veja os
                 números</a
               >
@@ -581,7 +647,7 @@
               <p class="news__list-list-item-wrapper-loterias">
                 Ato de amor ao próximo ❤️
               </p>
-              <a class="news__list-list-item-wrapper-link"
+              <a class="news__list-list-item-wrapper-link" href="#form"
                 >Esforço de equipe de transplante garante coração novo a menina
                 de 3 anos</a
               >
@@ -593,7 +659,7 @@
     </section>
     <footer>
       <div class="container">
-        <a class="logo">
+        <a class="logo" href="#form">
           <svg
             fill="none"
             viewBox="0 0 42 42"
@@ -605,17 +671,34 @@
             ></path>
           </svg>
         </a>
-        <a class="footer__link">Últimas Notícias</a>
+        <a class="footer__link" href="#form">Últimas Notícias</a>
         <p class="footer__text">Globo Notícias</p>
         <p class="footer__text">
           © Copyright 2000-2024 Globo Comunicação e Participações S.A.
         </p>
-        <a class="footer__link">princípios editoriais</a>
-        <a class="footer__link">política de privacidade</a>
-        <a class="footer__link">minha conta</a>
-        <a class="footer__link">anuncie conosco</a>
+        <a class="footer__link" href="#form">princípios editoriais</a>
+        <a class="footer__link" href="#form">política de privacidade</a>
+        <a class="footer__link" href="#form">minha conta</a>
+        <a class="footer__link" href="#form">anuncie conosco</a>
+      </div>
+      <div class="cookie" id="cookieBar">
+        <p class="cookie__text">
+          Nós usamos cookies e outras tecnologias semelhantes para melhorar a
+          sua experiência em nossos serviços, personalizar publicidade e
+          recomendar conteúdo de seu interesse. Ao utilizar nossos serviços,
+          você está ciente dessa funcionalidade. Conheça nosso
+          <a class="cookie__link" href="#form">Portal da Privacidade</a> e
+          consulte nossa
+          <a class="cookie__link" href="#form">Política de Privacidade.</a>
+        </p>
+        <button class="cookie__accept-button" id="cookieButton">
+          Prosseguir
+        </button>
       </div>
     </footer>
+    <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.3/build/js/intlTelInput.min.js"></script>
+    <script src="js/mask.js"></script>
   </body>
 </html>

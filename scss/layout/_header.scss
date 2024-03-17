@@ -138,9 +138,9 @@ header .container {
 }
 .line {
   background-image: url("/img/dots.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 34px;
+  background-size: contain;
+  background-repeat: repeat;
+  height: 30px;
   margin-right: 32px;
   width: 22px;
   display: none;

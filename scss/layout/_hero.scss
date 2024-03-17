@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  transition: background-color 0.3s ease;
 }
 .hero__list-item {
   width: 32%;
@@ -126,7 +127,6 @@ video {
   font-weight: 400;
   letter-spacing: -0.27px;
   line-height: 28px;
-  margin-bottom: 32px;
 }
 .red {
   color: rgb(196, 23, 12);
@@ -181,6 +181,11 @@ video {
     transform: translateX(-100%);
   }
 }
+.hero__article-text-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
 .hero__audio-wrapper-info-audio-text {
   margin-top: 8px;
   font-weight: 400;
@@ -211,6 +216,22 @@ audio::-webkit-media-controls-panel-start-playback-button {
 }
 #play {
   display: none;
+}
+.hero__article-counting-list li {
+  list-style-position: inside;
+}
+.italic {
+  font-style: italic;
+}
+.hero__article-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.hero__article-title-comments-name {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 500;
 }
 @media screen and (min-width: 1440px) {
   .hero .container {
