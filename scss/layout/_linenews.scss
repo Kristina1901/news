@@ -61,6 +61,13 @@
 .line__news-line-item-link img {
   max-width: 540px;
 }
+.subContainer1 {
+  width: 100%;
+}
+.line__news-line-item-link img {
+  width: 100%;
+  display: block;
+}
 @media screen and (min-width: 1440px) {
   .line__news .container {
     width: 1000px;
@@ -72,5 +79,9 @@
   .subContainer1 {
     width: 810px;
     padding-left: 180px;
+  }
+  .people {
+    width: 810px;
+    height: auto;
   }
 }

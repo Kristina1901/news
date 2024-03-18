@@ -12,9 +12,11 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 90%;
   padding: 16px;
   border-radius: 12px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .cookie__text {
   font-size: 12px;
@@ -43,6 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
   .cookie__text {
     margin-bottom: 0;

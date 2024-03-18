@@ -3,9 +3,6 @@
   position: relative;
   padding-top: 24px;
 }
-.news__list .container {
-  width: 680px;
-}
 .news__list-line {
   top: 0;
   position: absolute;
@@ -106,5 +103,8 @@
     width: 680px;
     left: 50%;
     transform: translate(-50%, 0);
+  }
+  .news__list .container {
+    width: 680px;
   }
 }
