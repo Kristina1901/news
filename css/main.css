@@ -1036,7 +1036,7 @@ footer .container {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
   border: solid 1px #eeeeee;
   background-color: #fff;
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 90%;
   padding: 16px;
@@ -1072,7 +1072,6 @@ footer .container {
 @media screen and (min-width: 834px) {
   .cookie {
     flex-direction: row;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
