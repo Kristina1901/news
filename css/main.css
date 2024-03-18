@@ -1110,7 +1110,8 @@ footer .container {
   font-size: 14px;
   line-height: 26px;
   color: #828282;
-  height: 30px;
+  height: 35px;
+  width: 100%;
 }
 
 .name {
