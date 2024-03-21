@@ -22,7 +22,7 @@ function isValidNumber() {
     buttonForm.removeAttribute("disabled");
   }
 }
-inputPhone.addEventListener("change", isValidNumber);
+inputPhone.addEventListener("input", isValidNumber);
 function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
@@ -36,4 +36,4 @@ function isValidEmail() {
     buttonForm.removeAttribute("disabled");
   }
 }
-inputMail.addEventListener("change", isValidEmail);
+inputMail.addEventListener("input", isValidEmail);
